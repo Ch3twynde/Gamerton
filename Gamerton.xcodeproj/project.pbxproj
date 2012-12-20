@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62ECE8FA1682C48300622F3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62ECE8F91682C48300622F3E /* UIKit.framework */; };
+		62ECE8FC1682C48300622F3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62ECE8FB1682C48300622F3E /* Foundation.framework */; };
+		62ECE8FE1682C48300622F3E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62ECE8FD1682C48300622F3E /* CoreGraphics.framework */; };
+		62ECE9041682C48300622F3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62ECE9021682C48300622F3E /* InfoPlist.strings */; };
+		62ECE9061682C48300622F3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ECE9051682C48300622F3E /* main.m */; };
+		62ECE90C1682C48300622F3E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 62ECE90B1682C48300622F3E /* Default.png */; };
+		62ECE90E1682C48300622F3E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62ECE90D1682C48300622F3E /* Default@2x.png */; };
+		62ECE9101682C48300622F3E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62ECE90F1682C48300622F3E /* Default-568h@2x.png */; };
+		62ECE9181682C48300622F3E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62ECE9171682C48300622F3E /* SenTestingKit.framework */; };
+		62ECE9191682C48300622F3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62ECE8F91682C48300622F3E /* UIKit.framework */; };
+		62ECE91A1682C48300622F3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62ECE8FB1682C48300622F3E /* Foundation.framework */; };
+		62ECE9221682C48300622F3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62ECE9201682C48300622F3E /* InfoPlist.strings */; };
+		62ECE9251682C48300622F3E /* GamertonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ECE9241682C48300622F3E /* GamertonTests.m */; };
+		62ECE9361682D05800622F3E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62ECE9351682D05800622F3E /* QuartzCore.framework */; };
+		62ECE95616839FD300622F3E /* GTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ECE94616839FD300622F3E /* GTAppDelegate.m */; };
+		62ECE95716839FD300622F3E /* GTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ECE94616839FD300622F3E /* GTAppDelegate.m */; };
+		62ECE95816839FD300622F3E /* CGVector.c in Sources */ = {isa = PBXBuildFile; fileRef = 62ECE94816839FD300622F3E /* CGVector.c */; };
+		62ECE95916839FD300622F3E /* CGVector.c in Sources */ = {isa = PBXBuildFile; fileRef = 62ECE94816839FD300622F3E /* CGVector.c */; };
+		62ECE95A16839FD300622F3E /* GTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ECE94C16839FD300622F3E /* GTView.m */; };
+		62ECE95B16839FD300622F3E /* GTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ECE94C16839FD300622F3E /* GTView.m */; };
+		62ECE95C16839FD300622F3E /* GTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ECE94F16839FD300622F3E /* GTMainViewController.m */; };
+		62ECE95D16839FD300622F3E /* GTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ECE94F16839FD300622F3E /* GTMainViewController.m */; };
+		62ECE95E16839FD300622F3E /* GTObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ECE95216839FD300622F3E /* GTObjectManager.m */; };
+		62ECE95F16839FD300622F3E /* GTObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ECE95216839FD300622F3E /* GTObjectManager.m */; };
+		62ECE96016839FD300622F3E /* GTSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ECE95516839FD300622F3E /* GTSettings.m */; };
+		62ECE96116839FD300622F3E /* GTSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ECE95516839FD300622F3E /* GTSettings.m */; };
+		62ECE9641683CACA00622F3E /* GTTouchOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ECE9631683CACA00622F3E /* GTTouchOverlay.m */; };
+		62ECE9651683CACA00622F3E /* GTTouchOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ECE9631683CACA00622F3E /* GTTouchOverlay.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62ECE91B1682C48300622F3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62ECE8EC1682C48300622F3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62ECE8F41682C48300622F3E;
+			remoteInfo = Gamerton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62ECE8F51682C48300622F3E /* Gamerton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gamerton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62ECE8F91682C48300622F3E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		62ECE8FB1682C48300622F3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		62ECE8FD1682C48300622F3E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		62ECE9011682C48300622F3E /* Gamerton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gamerton-Info.plist"; sourceTree = "<group>"; };
+		62ECE9031682C48300622F3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		62ECE9051682C48300622F3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62ECE9071682C48300622F3E /* Gamerton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gamerton-Prefix.pch"; sourceTree = "<group>"; };
+		62ECE90B1682C48300622F3E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		62ECE90D1682C48300622F3E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		62ECE90F1682C48300622F3E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		62ECE9161682C48300622F3E /* GamertonTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GamertonTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62ECE9171682C48300622F3E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		62ECE91F1682C48300622F3E /* GamertonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GamertonTests-Info.plist"; sourceTree = "<group>"; };
+		62ECE9211682C48300622F3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		62ECE9231682C48300622F3E /* GamertonTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamertonTests.h; sourceTree = "<group>"; };
+		62ECE9241682C48300622F3E /* GamertonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamertonTests.m; sourceTree = "<group>"; };
+		62ECE9351682D05800622F3E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		62ECE94516839FD300622F3E /* GTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTAppDelegate.h; sourceTree = "<group>"; };
+		62ECE94616839FD300622F3E /* GTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTAppDelegate.m; sourceTree = "<group>"; };
+		62ECE94816839FD300622F3E /* CGVector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CGVector.c; sourceTree = "<group>"; };
+		62ECE94916839FD300622F3E /* CGVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGVector.h; sourceTree = "<group>"; };
+		62ECE94B16839FD300622F3E /* GTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTView.h; sourceTree = "<group>"; };
+		62ECE94C16839FD300622F3E /* GTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTView.m; sourceTree = "<group>"; };
+		62ECE94E16839FD300622F3E /* GTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMainViewController.h; sourceTree = "<group>"; };
+		62ECE94F16839FD300622F3E /* GTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMainViewController.m; sourceTree = "<group>"; };
+		62ECE95116839FD300622F3E /* GTObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTObjectManager.h; sourceTree = "<group>"; };
+		62ECE95216839FD300622F3E /* GTObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTObjectManager.m; sourceTree = "<group>"; };
+		62ECE95416839FD300622F3E /* GTSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTSettings.h; sourceTree = "<group>"; };
+		62ECE95516839FD300622F3E /* GTSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTSettings.m; sourceTree = "<group>"; };
+		62ECE9621683CACA00622F3E /* GTTouchOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTTouchOverlay.h; path = "Gamerton/Source/Touch Overlay/GTTouchOverlay.h"; sourceTree = SOURCE_ROOT; };
+		62ECE9631683CACA00622F3E /* GTTouchOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTTouchOverlay.m; path = "Gamerton/Source/Touch Overlay/GTTouchOverlay.m"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62ECE8F21682C48300622F3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62ECE9361682D05800622F3E /* QuartzCore.framework in Frameworks */,
+				62ECE8FA1682C48300622F3E /* UIKit.framework in Frameworks */,
+				62ECE8FC1682C48300622F3E /* Foundation.framework in Frameworks */,
+				62ECE8FE1682C48300622F3E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62ECE9121682C48300622F3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62ECE9181682C48300622F3E /* SenTestingKit.framework in Frameworks */,
+				62ECE9191682C48300622F3E /* UIKit.framework in Frameworks */,
+				62ECE91A1682C48300622F3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62ECE8EA1682C48300622F3E = {
+			isa = PBXGroup;
+			children = (
+				62ECE8FF1682C48300622F3E /* Gamerton */,
+				62ECE91D1682C48300622F3E /* GamertonTests */,
+				62ECE8F81682C48300622F3E /* Frameworks */,
+				62ECE8F61682C48300622F3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62ECE8F61682C48300622F3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62ECE8F51682C48300622F3E /* Gamerton.app */,
+				62ECE9161682C48300622F3E /* GamertonTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62ECE8F81682C48300622F3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62ECE9351682D05800622F3E /* QuartzCore.framework */,
+				62ECE8F91682C48300622F3E /* UIKit.framework */,
+				62ECE8FB1682C48300622F3E /* Foundation.framework */,
+				62ECE8FD1682C48300622F3E /* CoreGraphics.framework */,
+				62ECE9171682C48300622F3E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62ECE8FF1682C48300622F3E /* Gamerton */ = {
+			isa = PBXGroup;
+			children = (
+				62ECE94316839FD300622F3E /* Source */,
+				62ECE9001682C48300622F3E /* Supporting Files */,
+			);
+			path = Gamerton;
+			sourceTree = "<group>";
+		};
+		62ECE9001682C48300622F3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62ECE9011682C48300622F3E /* Gamerton-Info.plist */,
+				62ECE9021682C48300622F3E /* InfoPlist.strings */,
+				62ECE9051682C48300622F3E /* main.m */,
+				62ECE9071682C48300622F3E /* Gamerton-Prefix.pch */,
+				62ECE90B1682C48300622F3E /* Default.png */,
+				62ECE90D1682C48300622F3E /* Default@2x.png */,
+				62ECE90F1682C48300622F3E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62ECE91D1682C48300622F3E /* GamertonTests */ = {
+			isa = PBXGroup;
+			children = (
+				62ECE9231682C48300622F3E /* GamertonTests.h */,
+				62ECE9241682C48300622F3E /* GamertonTests.m */,
+				62ECE91E1682C48300622F3E /* Supporting Files */,
+			);
+			path = GamertonTests;
+			sourceTree = "<group>";
+		};
+		62ECE91E1682C48300622F3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62ECE91F1682C48300622F3E /* GamertonTests-Info.plist */,
+				62ECE9201682C48300622F3E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62ECE94316839FD300622F3E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				62ECE94416839FD300622F3E /* App Delegate */,
+				62ECE94716839FD300622F3E /* CGVector */,
+				62ECE94A16839FD300622F3E /* GTView */,
+				62ECE94D16839FD300622F3E /* MainViewController */,
+				62ECE95016839FD300622F3E /* Object Manager */,
+				62ECE95316839FD300622F3E /* Settings */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		62ECE94416839FD300622F3E /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				62ECE94516839FD300622F3E /* GTAppDelegate.h */,
+				62ECE94616839FD300622F3E /* GTAppDelegate.m */,
+				62ECE9621683CACA00622F3E /* GTTouchOverlay.h */,
+				62ECE9631683CACA00622F3E /* GTTouchOverlay.m */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		62ECE94716839FD300622F3E /* CGVector */ = {
+			isa = PBXGroup;
+			children = (
+				62ECE94816839FD300622F3E /* CGVector.c */,
+				62ECE94916839FD300622F3E /* CGVector.h */,
+			);
+			path = CGVector;
+			sourceTree = "<group>";
+		};
+		62ECE94A16839FD300622F3E /* GTView */ = {
+			isa = PBXGroup;
+			children = (
+				62ECE94B16839FD300622F3E /* GTView.h */,
+				62ECE94C16839FD300622F3E /* GTView.m */,
+			);
+			path = GTView;
+			sourceTree = "<group>";
+		};
+		62ECE94D16839FD300622F3E /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				62ECE94E16839FD300622F3E /* GTMainViewController.h */,
+				62ECE94F16839FD300622F3E /* GTMainViewController.m */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		62ECE95016839FD300622F3E /* Object Manager */ = {
+			isa = PBXGroup;
+			children = (
+				62ECE95116839FD300622F3E /* GTObjectManager.h */,
+				62ECE95216839FD300622F3E /* GTObjectManager.m */,
+			);
+			path = "Object Manager";
+			sourceTree = "<group>";
+		};
+		62ECE95316839FD300622F3E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				62ECE95416839FD300622F3E /* GTSettings.h */,
+				62ECE95516839FD300622F3E /* GTSettings.m */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62ECE8F41682C48300622F3E /* Gamerton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62ECE9281682C48300622F3E /* Build configuration list for PBXNativeTarget "Gamerton" */;
+			buildPhases = (
+				62ECE8F11682C48300622F3E /* Sources */,
+				62ECE8F21682C48300622F3E /* Frameworks */,
+				62ECE8F31682C48300622F3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gamerton;
+			productName = Gamerton;
+			productReference = 62ECE8F51682C48300622F3E /* Gamerton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62ECE9151682C48300622F3E /* GamertonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62ECE92B1682C48300622F3E /* Build configuration list for PBXNativeTarget "GamertonTests" */;
+			buildPhases = (
+				62ECE9111682C48300622F3E /* Sources */,
+				62ECE9121682C48300622F3E /* Frameworks */,
+				62ECE9131682C48300622F3E /* Resources */,
+				62ECE9141682C48300622F3E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62ECE91C1682C48300622F3E /* PBXTargetDependency */,
+			);
+			name = GamertonTests;
+			productName = GamertonTests;
+			productReference = 62ECE9161682C48300622F3E /* GamertonTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62ECE8EC1682C48300622F3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GT;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Miles Alden";
+			};
+			buildConfigurationList = 62ECE8EF1682C48300622F3E /* Build configuration list for PBXProject "Gamerton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 62ECE8EA1682C48300622F3E;
+			productRefGroup = 62ECE8F61682C48300622F3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62ECE8F41682C48300622F3E /* Gamerton */,
+				62ECE9151682C48300622F3E /* GamertonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62ECE8F31682C48300622F3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62ECE9041682C48300622F3E /* InfoPlist.strings in Resources */,
+				62ECE90C1682C48300622F3E /* Default.png in Resources */,
+				62ECE90E1682C48300622F3E /* Default@2x.png in Resources */,
+				62ECE9101682C48300622F3E /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62ECE9131682C48300622F3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62ECE9221682C48300622F3E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62ECE9141682C48300622F3E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62ECE8F11682C48300622F3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62ECE9061682C48300622F3E /* main.m in Sources */,
+				62ECE95616839FD300622F3E /* GTAppDelegate.m in Sources */,
+				62ECE95816839FD300622F3E /* CGVector.c in Sources */,
+				62ECE95A16839FD300622F3E /* GTView.m in Sources */,
+				62ECE95C16839FD300622F3E /* GTMainViewController.m in Sources */,
+				62ECE95E16839FD300622F3E /* GTObjectManager.m in Sources */,
+				62ECE96016839FD300622F3E /* GTSettings.m in Sources */,
+				62ECE9641683CACA00622F3E /* GTTouchOverlay.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62ECE9111682C48300622F3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62ECE9251682C48300622F3E /* GamertonTests.m in Sources */,
+				62ECE95716839FD300622F3E /* GTAppDelegate.m in Sources */,
+				62ECE95916839FD300622F3E /* CGVector.c in Sources */,
+				62ECE95B16839FD300622F3E /* GTView.m in Sources */,
+				62ECE95D16839FD300622F3E /* GTMainViewController.m in Sources */,
+				62ECE95F16839FD300622F3E /* GTObjectManager.m in Sources */,
+				62ECE96116839FD300622F3E /* GTSettings.m in Sources */,
+				62ECE9651683CACA00622F3E /* GTTouchOverlay.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62ECE91C1682C48300622F3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62ECE8F41682C48300622F3E /* Gamerton */;
+			targetProxy = 62ECE91B1682C48300622F3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62ECE9021682C48300622F3E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62ECE9031682C48300622F3E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		62ECE9201682C48300622F3E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62ECE9211682C48300622F3E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62ECE9261682C48300622F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62ECE9271682C48300622F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62ECE9291682C48300622F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gamerton/Gamerton-Prefix.pch";
+				INFOPLIST_FILE = "Gamerton/Gamerton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		62ECE92A1682C48300622F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gamerton/Gamerton-Prefix.pch";
+				INFOPLIST_FILE = "Gamerton/Gamerton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		62ECE92C1682C48300622F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gamerton.app/Gamerton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gamerton/Gamerton-Prefix.pch";
+				INFOPLIST_FILE = "GamertonTests/GamertonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		62ECE92D1682C48300622F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gamerton.app/Gamerton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gamerton/Gamerton-Prefix.pch";
+				INFOPLIST_FILE = "GamertonTests/GamertonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62ECE8EF1682C48300622F3E /* Build configuration list for PBXProject "Gamerton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62ECE9261682C48300622F3E /* Debug */,
+				62ECE9271682C48300622F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62ECE9281682C48300622F3E /* Build configuration list for PBXNativeTarget "Gamerton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62ECE9291682C48300622F3E /* Debug */,
+				62ECE92A1682C48300622F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62ECE92B1682C48300622F3E /* Build configuration list for PBXNativeTarget "GamertonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62ECE92C1682C48300622F3E /* Debug */,
+				62ECE92D1682C48300622F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62ECE8EC1682C48300622F3E /* Project object */;
+}
